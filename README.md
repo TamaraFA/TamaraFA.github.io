@@ -14,7 +14,9 @@ From October 2020, I am assistant professor at the . I am a postdoctoral researc
 ## Publications
 
 ### Machine-learning conferences:
-1. <b>A kernel test for quasi-independence.</b> <i>with Wenkai Xu, Marc Ditzhaus and Arthur Gretton.</i>  ```diff
+1. <b>A kernel test for quasi-independence.</b> <i>with Wenkai Xu, Marc Ditzhaus and Arthur Gretton.</i>  
+
+```diff
 + this text is highlighted in green
 - this text is highlighted in red
 ```
