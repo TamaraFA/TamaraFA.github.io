@@ -14,7 +14,7 @@ From October 2020, I am assistant professor at the . I am a postdoctoral researc
 ## Publications
 
 ### Machine-learning conferences:
-1. <b>A kernel test for quasi-independence.</b> with Wenkai Xu, Marc Ditzhaus and Arthur Gretton (2020). 
+1. <b>A kernel test for quasi-independence.</b> <i>with Wenkai Xu, Marc Ditzhaus and Arthur Gretton (2020).</i> 
 2. <b>Kernelized Stein discrepancy tests of goodness-of-fit for time-to-event data.</b> <i>with Wenkai Xu, Nicolas Rivera and Arthur Gretton.</i>  ICML 2020. [(link to paper)](https://proceedings.icml.cc/paper/2020/file/1f50893f80d6830d62765ffad7721742-Paper.pdf)
 3. <b>A maximum-mean-discrepancy goodness-of-fit test for censored data.</b> <i>with Arthur Gretton.</i> AISTATS 2019.
 [(link to paper)](http://proceedings.mlr.press/v89/fernandez19a/fernandez19a.pdf)
