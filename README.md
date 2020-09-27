@@ -12,15 +12,17 @@ From October 2020, I am assistant professor at the . I am a postdoctoral researc
 -  t.a.fernandez at ucl dot ac dot uk
 
 ## Publications
+
 ### Machine-learning conferences:
-1. A kernel test for quasi-independence. with Wenkai Xu, Marc Ditzhaus and Arthur Gretton (2020). 
-2. A reproducing kernel Hilbert space log-rank test for the two-sample problem. with Nicolas Rivera (2019).  Submitted to: Scandinavian Journal of Statistics. https://arxiv.org/pdf/1904.05187.pdf
-3. A maximum-mean-discrepancy goodness-of-fit test for censored data. with Arthur Gretton. AISTATS 2019.
+1. <b>A kernel test for quasi-independence.</b> with Wenkai Xu, Marc Ditzhaus and Arthur Gretton (2020). 
+2. <b>Kernelized Stein discrepancy tests of goodness-of-fit for time-to-event data.</b> <i>with Wenkai Xu, Nicolas Rivera and Arthur Gretton.</i>  ICML 2020.
+3. <b>A maximum-mean-discrepancy goodness-of-fit test for censored data.</b> <i>with Arthur Gretton.</i> AISTATS 2019.
 http://proceedings.mlr.press/v89/fernandez19a/fernandez19a.pdf
-4. Gaussian Processes for Survival Analysis. with Nicolas Rivera and Yee Whye Teh. Neurips 2016. https://papers.nips.cc/paper/6443-gaussian-processes-for-survival-analysis.pdf
-#### Journals:
-1. Kernelized Stein discrepancy tests of goodness-of-fit for time-to-event data. with Wenkai Xu, Nicolas Rivera and Arthur Gretton.  ICML 2020.
+4. <b>Gaussian Processes for Survival Analysis.</b> <i>with Nicolas Rivera and Yee Whye Teh.</i> Neurips 2016. https://papers.nips.cc/paper/6443-gaussian-processes-for-survival-analysis.pdf
+
+### Journals:
+1. A reproducing kernel Hilbert space log-rank test for the two-sample problem. with Nicolas Rivera (2019).  Submitted to: Scandinavian Journal of Statistics. https://arxiv.org/pdf/1904.05187.pdf
 2. Kaplan Meier V- and U-statistics. with Nicolas Rivera. Electronic Journal of Statistics, 14(1):1872–1916, 2020. https://projecteuclid.org/euclid.ejs/1587693634
 3. A kernel log-rank test of independence for right censored data. with Arthur Gretton, David Rindt and Dino Sejdinovic (2020). Submitted to: Journal of the American Statistical Association. https://arxiv.org/abs/1912.03784
 
-###Technical Report:
+### Technical Report:
