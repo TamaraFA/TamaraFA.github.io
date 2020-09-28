@@ -25,17 +25,9 @@ From October 2020, I am assistant professor at the . I am a postdoctoral researc
 4. <b>Gaussian Processes for Survival Analysis.</b> <i>with Nicolas Rivera and Yee Whye Teh.</i> Neurips 2016. [(link to paper)](https://papers.nips.cc/paper/6443-gaussian-processes-for-survival-analysis.pdf)
 
 ### Journals:
-1. <b>A kernel log-rank test of independence for right censored data.</b> <i>with Arthur Gretton, David Rindt and Dino Sejdinovic (2020).</i> [(link to paper)](https://arxiv.org/abs/1912.03784)
+1. <b>A kernel log-rank test of independence for right censored data.</b> <i>with Arthur Gretton, David Rindt and Dino Sejdinovic (2020).</i> <b>Submitted to: Journal of the American Statistical Association. </b> [(link to paper)](https://arxiv.org/abs/1912.03784)
 
-```diff
--Submitted to: Journal of the American Statistical Association. -
-```
-2. <b>A reproducing kernel Hilbert space log-rank test for the two-sample problem.</b> <i>with Nicolas Rivera (2019).</i> [(link to paper)](https://arxiv.org/pdf/1904.05187.pdf)
-
-```diff
-@@ paper recently accepted in the Scandinavian Journal of Statistics (2020) @@
-```
-
+2. <b>A reproducing kernel Hilbert space log-rank test for the two-sample problem.</b> <i>with Nicolas Rivera (2019).</i> <b> To appear: Scandinavian Journal of Statistics </b> [(link to paper)](https://arxiv.org/pdf/1904.05187.pdf)
 
 3. <b>Kaplan Meier V- and U-statistics.</b> <i>with Nicolas Rivera.</i> Electronic Journal of Statistics, 14(1):1872–1916, 2020. [(link to paper)](https://projecteuclid.org/euclid.ejs/1587693634)
 
