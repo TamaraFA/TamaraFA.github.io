@@ -6,7 +6,10 @@
 From October 2020, I am an Assistant professor at the Faculty of Engineering and Science of Adolfo Ibañez University (Viña del Mar, Chile).  Previously, I was a Postdoctoral research associate at the Gatsby Unit, working with Arthur Gretton. I joined the Gatsby Unit in 2018 as a [Biometrika Postdoctoral Fellow](http://biometrika.wikidot.com/). In 2018, I obtained my DPhil in Statistics at the University of Oxford, under the supervision of Yee Whye Teh. My work has been focused on extending modern machine learning techniques to classical statistical problems, in particular to Survival Analysis. 
 
 ### Research Interests
-- Non-parametric methods, kernel methods, Survival analysis, Bayesian statistics
+- Non-parametric methods, 
+- Kernel methods, 
+- Survival analysis, 
+- Bayesian statistics
 
 ### Contact me
 -  t.a.fernandez at ucl dot ac dot uk
@@ -16,7 +19,7 @@ From October 2020, I am an Assistant professor at the Faculty of Engineering and
 ### News
 
 - Paper "A kernel test for quasi-independence" accepted for a <b> Spotlight presentation </b> at Neurips 2020
-- I start an Assistant Professor possition in October 2020 at the Faculty of Engineering and Science of Adolfo Ibañez University (Viña del Mar, Chile)
+- From October 2020, I am an Assistant professor at the Faculty of Engineering and Science of Adolfo Ibañez University (Viña del Mar, Chile)
 
 
 ## Publications
