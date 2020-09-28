@@ -20,7 +20,7 @@ From October 2020, I am assistant professor at the . I am a postdoctoral researc
 
 ## Publications
 
-### Machine-learning conferences:
+### Conferences:
 1. <b>A kernel test for quasi-independence.</b> <i>with Wenkai Xu, Marc Ditzhaus and Arthur Gretton.</i> <b> Accepted Neurips 2020.</b>  
 2. <b>Kernelized Stein discrepancy tests of goodness-of-fit for time-to-event data.</b> <i>with Wenkai Xu, Nicolas Rivera and Arthur Gretton.</i>  ICML 2020. [(link to paper)](https://proceedings.icml.cc/paper/2020/file/1f50893f80d6830d62765ffad7721742-Paper.pdf)
 3. <b>A maximum-mean-discrepancy goodness-of-fit test for censored data.</b> <i>with Arthur Gretton.</i> AISTATS 2019.
@@ -35,3 +35,6 @@ From October 2020, I am assistant professor at the . I am a postdoctoral researc
 3. <b>Kaplan Meier V- and U-statistics.</b> <i>with Nicolas Rivera.</i> Electronic Journal of Statistics, 14(1):1872–1916, 2020. [(link to paper)](https://projecteuclid.org/euclid.ejs/1587693634)
 
 ### Technical Report:
+
+1. <b>Posterior consistency for a non-parametric survival model under a Gaussian process prior.</b> <i>with Yee Whye Teh 2017.</i> [(link to report)](https://arxiv.org/abs/1611.02335)
+
