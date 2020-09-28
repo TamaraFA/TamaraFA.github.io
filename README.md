@@ -35,7 +35,7 @@ From October 2020, I am an Assistant professor at the Faculty of Engineering and
 
 3. <b>Kaplan Meier V- and U-statistics.</b> <i>with Nicolas Rivera.</i> Electronic Journal of Statistics, 14(1):1872–1916, 2020. [(link to paper)](https://projecteuclid.org/euclid.ejs/1587693634)
 
-### Technical Report:
+### Technical Reports:
 
 1. <b>Posterior consistency for a non-parametric survival model under a Gaussian process prior.</b> <i>with Yee Whye Teh 2017.</i> [(link to report)](https://arxiv.org/abs/1611.02335)
 
