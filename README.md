@@ -13,9 +13,8 @@ From October 2020, I am assistant professor at the . I am a postdoctoral researc
 
 ### News
 
-```diff
-@@ "A kernel test for quasi-independence" recently accepted for a Spotlight presentation at Neurips 2020 @@
-```
+- Paper "A kernel test for quasi-independence" accepted for a <b> Spotlight presentation </b> at Neurips 2020
+- I start an Assistant Professor possition in October 2020 at the Faculty of Engineering and Science of Adolfo Ibañez University (Viña del Mar, Chile)
 
 
 ## Publications
