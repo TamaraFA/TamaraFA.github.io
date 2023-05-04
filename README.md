@@ -3,21 +3,18 @@
 
 <img src="https://raw.githubusercontent.com/TamaraFA/TamaraFA.github.io/master/Tam.jpg" width="31%" height="31%" align="left" />
 
-From October 2020, I am an Assistant professor at the Faculty of Engineering and Science of Adolfo Ibañez University (Viña del Mar, Chile).  Previously, I was a Postdoctoral research associate at the Gatsby Unit, working with Arthur Gretton. I joined the Gatsby Unit in 2018 as a [Biometrika Postdoctoral Fellow](http://biometrika.wikidot.com/). In 2018, I obtained my DPhil in Statistics at the University of Oxford, under the supervision of Yee Whye Teh. My work has been focused on extending modern machine learning techniques to classical statistical problems, in particular to Survival Analysis. 
+From October 2020, I am an Assistant professor at the Faculty of Engineering and Science of Adolfo Ibañez University (Viña del Mar, Chile).  Previously, I was a Postdoctoral research associate at the Gatsby Unit, working with Arthur Gretton. I joined the Gatsby Unit in 2018 as a [Biometrika Postdoctoral Fellow](http://biometrika.wikidot.com/). In 2018, I obtained my DPhil in Statistics at the University of Oxford, under the supervision of Yee Whye Teh. My research interests concern theory, methodology and applications of kernel methods.
 
 ### Research Interests
 - Non-parametric methods, Kernel methods, Survival analysis, and  Bayesian statistics
 
 ### Contact me
--  t.a.fernandez at ucl dot ac dot uk
+-  t.a.fernandez at uai dot cl 
 -  t.a.fernandez.aguilar at gmail dot com
 
-
 ### News
-
-- Paper "A kernel test for quasi-independence" accepted for a <b> Spotlight presentation </b> at Neurips 2020
-- From October 2020, I am an Assistant professor at the Faculty of Engineering and Science of Adolfo Ibañez University (Viña del Mar, Chile)
-
+- 
+- 
 
 ## Publications
 
@@ -31,7 +28,7 @@ From October 2020, I am an Assistant professor at the Faculty of Engineering and
 ### Journals:
 1. <b>A kernel log-rank test of independence for right censored data.</b> <i>with Arthur Gretton, David Rindt and Dino Sejdinovic (2020).</i> <b>Submitted to:</b> Journal of the American Statistical Association. [(link to paper)](https://arxiv.org/abs/1912.03784)
 
-2. <b>A reproducing kernel Hilbert space log-rank test for the two-sample problem.</b> <i>with Nicolas Rivera (2019).</i> <b> Accepted:</b> Scandinavian Journal of Statistics [(link to paper)](https://arxiv.org/pdf/1904.05187.pdf)
+2. <b>A reproducing kernel Hilbert space log-rank test for the two-sample problem.</b> <i>with Nicolas Rivera (2019).</i> Scandinavian Journal of Statistics 48 (4), 1384-1432  [(link to paper)](https://onlinelibrary.wiley.com/doi/abs/10.1111/sjos.12496)
 
 3. <b>Kaplan Meier V- and U-statistics.</b> <i>with Nicolas Rivera.</i> Electronic Journal of Statistics, 14(1):1872–1916, 2020. [(link to paper)](https://projecteuclid.org/euclid.ejs/1587693634)
 
