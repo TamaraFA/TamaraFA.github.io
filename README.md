@@ -11,9 +11,11 @@ From October 2020, I am an Assistant professor at the Faculty of Engineering and
 ### Contact me
 -  t.a.fernandez at uai dot cl 
 -  t.a.fernandez.aguilar at gmail dot com
-p.big {
-  line-height: 10;
-}
+
+
+
+
+
 
 
 ### News & Preprints
