@@ -27,7 +27,7 @@ From October 2020, I am an Assistant professor at the Faculty of Engineering and
 ### News & Preprints
 - <b>A general framework for the analysis of kernel-based tests</b> <i>with Nicolas Rivera, 2022.</i> [(link to preprint)](https://arxiv.org/abs/2209.00124).
 - <b>A Multiple kernel testing procedure for non-proportional hazards in factorial designs.</b> <i> with Marc Ditzhaus and Nicolas Rivera, 2022</i> [(link to preprint)](https://arxiv.org/abs/2206.07239).
-- - <b>Composite goodness-of-fit tests with kernels.</b> <i> with Oscar Key, FX Briol and Arthur Gretton, 2022</i> [(link to preprint)](https://arxiv.org/abs/2111.10275).
+-  <b>Composite goodness-of-fit tests with kernels.</b> <i> with Oscar Key, FX Briol and Arthur Gretton, 2022</i> [(link to preprint)](https://arxiv.org/abs/2111.10275).
 
 
 ## Publications
