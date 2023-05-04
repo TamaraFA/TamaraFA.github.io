@@ -12,14 +12,16 @@ From October 2020, I am an Assistant professor at the Faculty of Engineering and
 -  t.a.fernandez at uai dot cl 
 -  t.a.fernandez.aguilar at gmail dot com
 
-### News
-- 
-- 
+### News & Preprints
+- <b>A general framework for the analysis of kernel-based tests</b> <i>with Nicolas Rivera, 2022.</i> [(link to preprint)](https://arxiv.org/abs/2209.00124))
+- <b>A Multiple kernel testing procedure for non-proportional hazards in factorial designs.</b> <i> with Marc Ditzhaus and Nicolas Rivera, 2022</i> [(link to preprint)](https://arxiv.org/abs/2206.07239)
+- - <b>Composite goodness-of-fit tests with kernels.</b> <i> with Oscar Key, FX Briol and Arthur Gretton, 2022</i> [(link to preprint)](https://arxiv.org/abs/2111.10275)
+
 
 ## Publications
 
 ### Conferences:
-1. <b>A kernel test for quasi-independence.</b> <i>with Wenkai Xu, Marc Ditzhaus and Arthur Gretton.</i> <b> Accepted </b> Spotlight Neurips 2020. 
+1. <b>A kernel test for quasi-independence.</b> <i>with Wenkai Xu, Marc Ditzhaus and Arthur Gretton.</i> Spotlight Neurips 2020 [(link to paper)](https://proceedings.neurips.cc/paper/2020/hash/aeefb050911334869a7a5d9e4d0e1689-Abstract.html). 
 2. <b>Kernelized Stein discrepancy tests of goodness-of-fit for time-to-event data.</b> <i>with Wenkai Xu, Nicolas Rivera and Arthur Gretton.</i>  ICML 2020. [(link to paper)](https://proceedings.icml.cc/paper/2020/file/1f50893f80d6830d62765ffad7721742-Paper.pdf)
 3. <b>A maximum-mean-discrepancy goodness-of-fit test for censored data.</b> <i>with Arthur Gretton.</i> AISTATS 2019.
 [(link to paper)](http://proceedings.mlr.press/v89/fernandez19a/fernandez19a.pdf)
