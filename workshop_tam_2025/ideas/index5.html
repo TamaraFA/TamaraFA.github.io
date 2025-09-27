@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Linguistics Data Workshop 2025</title>
+<style>
+/* ===== Base ===== */
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    background: #ffffff;
+    color: #333;
+}
+
+/* ===== Intro Section ===== */
+.intro {
+    background: #222;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+.intro h1 {
+    font-size: 3rem;
+    margin: 0 0 20px;
+    letter-spacing: 1px;
+}
+.intro p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: auto;
+}
+.intro span {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #f9c74f;
+}
+
+/* ===== Timeline ===== */
+.timeline {
+    position: relative;
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 0 20px;
+}
+.timeline::before {
+    content: "";
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 50%;
+    width: 4px;
+    background: #f9c74f;
+    transform: translateX(-50%);
+}
+.block {
+    position: relative;
+    background: #f7f7f7;
+    width: 45%;
+    padding: 30px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.block h2 {
+    margin-top: 0;
+    color: #f9844a;
+}
+.block p {
+    margin: 0;
+}
+.block::after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    width: 20px; height: 20px;
+    background: #f9c74f;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 0 2px #f9c74f;
+}
+.left {
+    left: 0;
+}
+.left::after {
+    right: -10px;
+}
+.right {
+    left: 55%;
+}
+.right::after {
+    left: -10px;
+}
+
+/* ===== Registration Button ===== */
+.register {
+    text-align: center;
+    padding: 80px 20px;
+    background: #f9c74f;
+}
+.register h2 {
+    color: #222;
+    margin-bottom: 20px;
+}
+.button {
+    background: #222;
+    color: white;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+.button:hover {
+    background: #444;
+}
+
+/* ===== Footer ===== */
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #222;
+    color: #aaa;
+}
+
+@media(max-width: 768px) {
+    .timeline::before {
+        left: 20px;
+    }
+    .block {
+        width: 100%;
+        left: 0 !important;
+        padding-left: 60px;
+    }
+    .block::after {
+        left: 20px;
+    }
+}
+</style>
+</head>
+<body>
+
+<!-- ===== INTRO ===== -->
+<section class="intro">
+    <h1>Linguistics Data Workshop 2025</h1>
+    <p>Follow the journey of our one-day academic workshop as we explore 
+       the future of computational linguistics, data annotation, and 
+       cross-lingual analysis.</p>
+    <span>📍 Oxford University • October 12, 2025</span>
+</section>
+
+<!-- ===== TIMELINE ===== -->
+<div class="timeline">
+
+    <div class="block left">
+        <h2>08:30 – Registration & Coffee</h2>
+        <p>Check in, grab your badge, and enjoy a light breakfast while networking with fellow attendees.</p>
+    </div>
+
+    <div class="block right">
+        <h2>09:30 – Opening Keynote</h2>
+        <p>Prof. Elena Petrova introduces the latest trends in computational linguistics and AI-driven language models.</p>
+    </div>
+
+    <div class="block left">
+        <h2>11:00 – Data Annotation Challenge</h2>
+        <p>Hands-on session where teams work on creating high-quality annotated datasets for low-resource languages.</p>
+    </div>
+
+    <div class="block right">
+        <h2>13:00 – Lunch & Poster Session</h2>
+        <p>Enjoy a catered lunch and interact with poster presenters showcasing cutting-edge linguistic research.</p>
+    </div>
+
+    <div class="block left">
+        <h2>14:30 – Breakout Workshops</h2>
+        <p>Choose between three parallel tracks: Corpus Analysis, NLP Ethics, or Multilingual Modeling.</p>
+    </div>
+
+    <div class="block right">
+        <h2>17:00 – Closing Panel</h2>
+        <p>A roundtable discussion on the future of data sharing and open resources in computational linguistics.</p>
+    </div>
+
+</div>
+
+<!-- ===== REGISTRATION ===== -->
+<section class="register">
+    <h2>Ready to Join Us?</h2>
+    <a href="#" class="button">Register Now</a>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    &copy; 2025 Linguistics Data Workshop • Contact: lingdata@oxford.edu
+</footer>
+
+</body>
+</html>
+

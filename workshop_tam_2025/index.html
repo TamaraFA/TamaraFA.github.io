@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jornada UAI en Estadística y Ciencia de Datos 2025</title>
+<style>
+    /* ===== Base Styles ===== */
+    body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, sans-serif;
+        background: #ffffff;
+        color: #333;
+        line-height: 1.6;
+    }
+    header {
+    position: relative; /* allow absolute positioning inside */
+    background: linear-gradient(to right, #1d1e20, #00afd8);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.header-logos {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.header-logos img {
+    height: 60px; /* adjust as needed */
+}
+    header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+    header p {
+        margin: 10px 0 0;
+        font-size: 1.2rem;
+    }
+    nav {
+        background: #eee;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        padding: 15px 0;
+        flex-wrap: wrap;
+    }
+    nav a {
+        color: #333;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 6px 10px;
+    }
+    nav a:hover {
+        background: #6a82fb;
+        color: white;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+    section {
+        max-width: 1000px;
+        margin: 40px auto;
+        padding: 0 20px;
+    }
+    h2 {
+        color: #00afd8;
+        border-bottom: 2px solid #6a82fb;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+    }
+    
+    
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .card {
+        background: #fafafa;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        width: 280px;
+        text-align: center;
+    }
+    .card h3 {
+        margin-top: 0;
+        color: #1d1e20;
+    }
+    
+    
+    
+    
+    .open-modal-btn {
+    margin-top: 8px;
+    padding: 6px 12px;
+    border: none;
+    background-color: #6493b5;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.open-modal-btn:hover {
+    background-color: #00afd8;
+}
+</style>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header>
+<div class="header-logos">
+        <img src="uai.png" alt="University Logo" height="60">
+    </div>
+    <h1>Jornada UAI en Estadística y Ciencia de Datos</h1>
+    <strong>10 de Octubre de 2025 </strong>; 
+     <strong>9:30 - 16:00 </strong>;
+    <strong> Facultad de Ingeniería, UAI Viña del Mar</strong>
+</header>
+
+<!-- ===== NAV ===== -->
+<nav>
+    <a href="#speakers">Speakers</a>
+    <a href="#program">Programa</a>
+    <a href="#location">Dirección</a>
+    <a href="#register">Registración</a>
+</nav>
+
+
+
+
+<!-- ===== SPEAKERS ===== -->
+<section id="speakers">
+    <h2>Speakers y Abstracts</h2>
+    <div class="cards"></div>
+</section>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <button class="close">&times;</button>
+        <p id="modal-text"></p>
+    </div>
+</div>
+
+
+<style>
+/* Modal styles */
+.modal {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.modal.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 700px;
+    display: flex;
+    gap: 20px;        /* space between image and text */
+    align-items: flex-start;
+    position: relative;
+    transform: translateY(-30px);
+    transition: transform 0.3s ease;
+}
+
+.modal-content img {
+    width: 200px;     /* fixed width for image */
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.modal.show .modal-content {
+    transform: translateY(0);
+}
+
+.close {
+    position: absolute;
+    top: 10px;        /* distance from top of modal content */
+    right: 10px;      /* distance from right of modal content */
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+    background: transparent;
+    border: none;
+}
+
+.close:hover {
+    color: #fc5c7d;
+}
+</style>
+
+<!-- ===== PROGRAM ===== -->
+<section id="program">
+    <h2>Programa</h2>
+    <ul>
+        
+<li>09:30 - 10:05 : Natalia Bahamonde</li>
+  <li>10:05 - 10:40 : Soledad Torres</li>
+  <li>10:40 - 11:00 : Diego Ramos</li>
+  <li>11:00 - 11:30 : Pausa</li>
+  <li>11:30 - 12:05 : John Barrera</li>
+  <li>12:05 - 12:40 : Andrés Iturriaga</li>
+  <li>12:40 - 13:00 : María Bravo</li>
+  <li>13:00 - 14:00 : Pausa - Almuerzo</li>
+  <li>14:00 - 14:35 : Héctor Olivero</li>
+  <li>14:35 - 14:55 : Luis Oliveros</li>
+  <li>14:55 - 15:30 : Sebastián Moreno</li>
+  <li>15:30 - 15:40 : Cierre</li>
+    </ul>
+</section>
+<!-- ===== ORGANIZADORES ===== -->
+<section id="organisers">
+    <h2>Organizadores</h2>
+    <ul>
+    <li> Tamara Fernández - Facultad de Ingeniería y Ciencias, UAI - Viña del Mar</li>
+    <li> Tania Roa - Facultad de Ingeniería y Ciencias, UAI - Viña del Mar</li>
+    <li> <strong>Contacto</strong>: tania dot roa at uai dot cl</li>
+    </ul>
+</section>
+
+<!-- ===== Locacion ===== -->
+<section id="location">
+    <h2>Locación</h2>
+    <p>Sala FZ101</p>
+   <p> Facultad de Ingenería y Ciencias, Campus Viña del Mar, Universidad Adolfo Ibañez</p>
+   <p> Av. Padre Hurtado 750, Viña del Mar, Chile.</p>
+</section>
+
+<!-- ===== REGISTER ===== -->
+<section id="register">
+    <h2>Registration</h2>
+    <p>No es necesario registrarse, pero nos ayudaría a calcular el tamaño del Coffee Break :).</p>
+     <p> Para manifestar tu interés, por favor escribe a <strong>tania dot roa at uai dot cl</strong>, indicando tu nombre y afiliación.</p>
+</section>
+
+
+
+<script>
+// Modal references
+const modal = document.getElementById('modal');
+const modalText = document.getElementById('modal-text');
+const closeBtn = document.querySelector('.close');
+
+// Function to create a speaker card
+function createSpeakerCard(name, affiliation, talkTitle, abstract, imageURL = 'fotos/default.jpg') {
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.setAttribute('data-abstract', abstract);
+    card.setAttribute('data-image', imageURL);
+
+    // Name
+    const h3 = document.createElement('h3');
+    h3.textContent = name;
+
+    // Image (circular)
+    const img = document.createElement('img');
+    img.src = imageURL;
+    img.alt = name;
+    img.style.width = '120px';
+    img.style.height = '120px';
+    img.style.borderRadius = '50%';
+    img.style.objectFit = 'cover';
+    img.style.display = 'block';
+    img.style.margin = '10px auto';
+
+    // Affiliation
+    const pAff = document.createElement('p');
+    pAff.innerHTML = affiliation;
+
+    // Talk title
+    const pTitle = document.createElement('p');
+    pTitle.innerHTML = `<strong>${talkTitle}</strong>`;
+
+    // Button
+    const btn = document.createElement('button');
+    btn.className = 'open-modal-btn';
+    btn.textContent = 'Abstract';
+    btn.addEventListener('click', (e) => {
+        e.stopPropagation(); 
+        openModal(abstract, imageURL);
+    });
+
+    // Append all in order
+    card.appendChild(h3);
+    card.appendChild(img);
+    card.appendChild(pAff);
+    card.appendChild(pTitle);
+    card.appendChild(btn);
+
+    document.querySelector('.cards').appendChild(card);
+}
+
+function openModal(text) {
+    const modalContent = modal.querySelector('.modal-content');
+
+    // Remove previous image if exists
+  
+
+
+    // Set the text
+    modalText.textContent = text;
+
+    modal.classList.add('show');
+}
+
+function closeModal() {
+    modal.classList.remove('show');
+}
+
+// Close modal handlers
+closeBtn.addEventListener('click', closeModal);
+window.addEventListener('click', (e) => { 
+    if (e.target === modal) closeModal(); 
+});
+
+// Create all 9 speakers
+
+
+  
+createSpeakerCard(
+    'Dra. Natalia Bahamonde',
+    'P. Universidad Católica de Valparaíso',
+    'Titulo',
+    'Abstract',
+    "fotos/natalia_bahamonde.jpg"
+);
+createSpeakerCard(
+    'Dra. Soledad Torres',
+    'Universidad de Valparaíso',
+    'Titulo',
+    "Abstract",
+    
+    'fotos/soledad_torres.webp',
+);
+createSpeakerCard(
+    'Dr. Andrés Iturriaga',
+    'Universidad de Santiago de Chile',
+     'Titulo',
+    'Abstract',
+    "fotos/andres.jpg"
+);
+createSpeakerCard(
+    'Dr. Héctor Olivero',
+    'Universidad de Valparaíso',
+     'Titulo',
+    'Abstract',
+    "fotos/hector.jpeg"
+);
+createSpeakerCard(
+    'Dr. John Barrera',
+    'Universidad de Valparaíso',
+     'Titulo',
+    'Abstract',
+    "fotos/john_barrera.jpeg"
+);
+
+createSpeakerCard(
+    'Dr. Sebastián Moreno',
+    'Universidad Adolfo Ibañez',
+    'Titulo',
+    'Abstract',
+    "fotos/sebastian_moreno.jpeg"
+);
+
+createSpeakerCard(
+    'María Bravo',
+    'Universidad Adolfo Ibañez',
+    'Titulo',
+    'Abstract',
+);
+
+createSpeakerCard(
+    'Luis Oliveros',
+    'Universidad Adolfo Ibañez',
+    'Titulo',
+    'Abstract',
+);
+
+createSpeakerCard(
+    'Diego Ramos',
+    'Universidad Adolfo Ibañez',
+    'Titulo',
+    'Abstract',
+);
+
+</script>
+
+</body>
+</html>
+

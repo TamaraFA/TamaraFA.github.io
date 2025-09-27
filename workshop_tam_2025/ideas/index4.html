@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neuroscience & AI Workshop 2025</title>
+<style>
+/* ===== Global ===== */
+body {
+    margin: 0;
+    font-family: "Montserrat", Arial, sans-serif;
+    background: #fafafa;
+    color: #222;
+    line-height: 1.7;
+}
+
+/* ===== Header (Split Layout) ===== */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(120deg, #ff7e5f, #feb47b);
+    color: #fff;
+}
+.header-left, .header-right {
+    flex: 1;
+    padding: 60px 30px;
+    min-width: 300px;
+}
+.header-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header-left h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.header-left p {
+    margin: 15px 0 0;
+    font-size: 1.2rem;
+}
+.header-right {
+    background: rgba(255,255,255,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.header-right strong {
+    display: block;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+.header-right span {
+    font-size: 1.1rem;
+}
+@media(max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+/* ===== Navigation ===== */
+nav {
+    background: #222;
+    text-align: center;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #feb47b;
+}
+
+/* ===== Sections ===== */
+section {
+    max-width: 950px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+h2 {
+    color: #ff7e5f;
+    font-size: 1.8rem;
+    border-bottom: 3px solid #ff7e5f;
+    display: inline-block;
+    padding-bottom: 4px;
+    margin-bottom: 20px;
+}
+p, li {
+    color: #444;
+}
+
+/* ===== Grid Cards ===== */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    text-align: center;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card h3 {
+    color: #ff7e5f;
+    margin-top: 0;
+}
+
+/* ===== Button ===== */
+.button {
+    display: inline-block;
+    padding: 12px 25px;
+    margin-top: 20px;
+    background: #ff7e5f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+.button:hover {
+    background: #e86d4f;
+}
+
+/* ===== Footer ===== */
+footer {
+    background: #222;
+    color: #aaa;
+    text-align: center;
+    padding: 25px;
+    margin-top: 60px;
+}
+</style>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header>
+    <div class="header-left">
+        <h1>Neuroscience & AI Workshop 2025</h1>
+        <p>Exploring the Intersection of Brain Science and Artificial Intelligence</p>
+    </div>
+    <div class="header-right">
+        <strong>March 8–9, 2025</strong>
+        <span>Harvard University, Cambridge, MA</span>
+    </div>
+</header>
+
+<!-- ===== NAVIGATION ===== -->
+<nav>
+    <a href="#about">About</a>
+    <a href="#topics">Topics</a>
+    <a href="#speakers">Speakers</a>
+    <a href="#program">Program</a>
+    <a href="#register">Register</a>
+</nav>
+
+<!-- ===== ABOUT ===== -->
+<section id="about">
+    <h2>About</h2>
+    <p>
+        The Neuroscience & AI Workshop 2025 brings together experts from cognitive science,
+        machine learning, and computational neuroscience to discuss shared challenges,
+        emerging theories, and transformative applications at the intersection of brain research and AI.
+    </p>
+</section>
+
+<!-- ===== TOPICS ===== -->
+<section id="topics">
+    <h2>Key Topics</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Brain-Inspired Models</h3>
+            <p>Neuromorphic computing, spiking neural networks, and learning mechanisms.</p>
+        </div>
+        <div class="card">
+            <h3>AI for Neuroscience</h3>
+            <p>Advanced ML techniques for brain imaging and behavioral analysis.</p>
+        </div>
+        <div class="card">
+            <h3>Cognitive Architectures</h3>
+            <p>Bridging human cognition and artificial intelligence.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ===== SPEAKERS ===== -->
+<section id="speakers">
+    <h2>Invited Speakers</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Dr. Carla Gomez</h3>
+            <p>MIT – *Neural Representations in Vision*</p>
+        </div>
+        <div class="card">
+            <h3>Prof. Mark Chen</h3>
+            <p>DeepMind – *Brain-Inspired Reinforcement Learning*</p>
+        </div>
+        <div class="card">
+            <h3>Dr. Emily Rossi</h3>
+            <p>Stanford – *Cognitive Neuroscience of Memory*</p>
+        </div>
+    </div>
+</section>
+
+<!-- ===== PROGRAM ===== -->
+<section id="program">
+    <h2>Program Highlights</h2>
+    <ul>
+        <li><strong>Day 1:</strong> Keynotes, panel on AI-Neuroscience synergies, poster session</li>
+        <li><strong>Day 2:</strong> Tutorials, research demos, collaborative roundtables</li>
+    </ul>
+</section>
+
+<!-- ===== REGISTER ===== -->
+<section id="register" style="text-align:center;">
+    <h2>Registration</h2>
+    <p>Early bird deadline: <strong>February 10, 2025</strong></p>
+    <a href="#" class="button">Register Now</a>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    &copy; 2025 Neuroscience & AI Workshop. All Rights Reserved.
+</footer>
+
+</body>
+</html>
+
