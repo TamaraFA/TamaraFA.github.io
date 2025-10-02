@@ -142,6 +142,7 @@
 <div id="modal" class="modal">
     <div class="modal-content">
         <button class="close">&times;</button>
+        <h3 id = "modal-title"></h3>
         <p id="modal-text"></p>
     </div>
 </div>
@@ -175,7 +176,6 @@
     padding: 20px;
     border-radius: 10px;
     max-width: 700px;
-    display: flex;
     gap: 20px;        /* space between image and text */
     align-items: flex-start;
     position: relative;
@@ -223,8 +223,8 @@
   <li>12:05 - 12:40 : Andrés Iturriaga</li>
   <li>12:40 - 13:00 : María Bravo</li>
   <li>13:00 - 14:00 : Pausa - Almuerzo</li>
-  <li>14:00 - 14:35 : Héctor Olivero</li>
-  <li>14:35 - 14:55 : Luis Oliveros</li>
+  <li>14:00 - 14:20 : Luis Oliveros</li>
+  <li>14:20 - 14:55 : Héctor Olivero</li>
   <li>14:55 - 15:30 : Sebastián Moreno</li>
   <li>15:30 - 15:40 : Cierre</li>
     </ul>
@@ -251,7 +251,7 @@
 <section id="register">
     <h2>Registración</h2>
     <p>No es necesario registrarse, pero nos ayudaría a calcular el tamaño del Coffee Break :).</p>
-     <p> Para manifestar tu interés, por favor escribe a <strong>tania dot roa at uai dot cl</strong>, indicando tu nombre y afiliación.</p>
+     <p> Para manifestar tu interés llena la forma <a href = "https://forms.gle/esP9aFNjc1Xe2UmH8">haciendo click acá</a>
 </section>
 
 
@@ -260,6 +260,7 @@
 // Modal references
 const modal = document.getElementById('modal');
 const modalText = document.getElementById('modal-text');
+const modalTitle = document.getElementById('modal-title');
 const closeBtn = document.querySelector('.close');
 
 // Function to create a speaker card
@@ -295,23 +296,23 @@ function createSpeakerCard(name, affiliation, talkTitle, abstract, imageURL = 'f
     // Button
     const btn = document.createElement('button');
     btn.className = 'open-modal-btn';
-    btn.textContent = 'Abstract';
+    btn.textContent = 'Título y Abstract';
     btn.addEventListener('click', (e) => {
         e.stopPropagation(); 
-        openModal(abstract, imageURL);
+        openModal(talkTitle, abstract);
     });
 
     // Append all in order
     card.appendChild(h3);
     card.appendChild(img);
     card.appendChild(pAff);
-    card.appendChild(pTitle);
+    //card.appendChild(pTitle);
     card.appendChild(btn);
 
     document.querySelector('.cards').appendChild(card);
 }
 
-function openModal(text) {
+function openModal(titulo, abstract) {
     const modalContent = modal.querySelector('.modal-content');
 
     // Remove previous image if exists
@@ -319,7 +320,9 @@ function openModal(text) {
 
 
     // Set the text
-    modalText.textContent = text;
+    
+    modalTitle.textContent = titulo;
+    modalText.textContent = abstract;
 
     modal.classList.add('show');
 }
@@ -348,8 +351,8 @@ createSpeakerCard(
 createSpeakerCard(
     'Dra. Soledad Torres',
     'Universidad de Valparaíso',
-    'Titulo',
-    "Abstract",
+    'Sobre el tiempo de explosión en ecuaciones diferenciales estocásticas dirigidas por un movimiento browniano fraccionario',
+    "Este estudio se centra en la determinación del tiempo de explosión de soluciones de ecuaciones diferenciales estocásticas (EDE) autónomas dirigidas por un movimiento browniano fraccionario (fBm) con parámetro de Hurst H>1/2. Mediante la transformación de Lamperti, se aborda el caso de coeficientes de difusión no constantes, ampliando los resultados de estudios previos. Para la aproximación numérica del tiempo de explosión, se propone un esquema adaptativo tipo Euler, que ajusta los pasos de tiempo según el comportamiento de la solución, permitiendo una simulación más precisa de la dinámica explosiva.",
     
     'fotos/soledad_torres.webp',
 );
@@ -363,8 +366,8 @@ createSpeakerCard(
 createSpeakerCard(
     'Dr. Héctor Olivero',
     'Universidad de Valparaíso',
-     'Titulo',
-    'Abstract',
+     "Age-structured stochastic populations under dynamic harvesters' behavior: well-posedness, asymptotic stability and numerically-amenable approximations",
+    "In this work we study a model of age-structured ecological populations in continuous interaction with a community of harvesters. We propose an individual-based model for this feedback interactions and prove its convergence to a system of coupled stochastic differential equations. This limit process is complemented with socio-ecological and environmental factors. For the resulting system we establish well-posedness, positivity, and the non-attainability of extinction boundaries, together with its long-term behavior and numerical approximation, relying on ad-hoc arguments to handle the super-linear growth and non-Lipschitz coefficients. Finally, we illustrate some of our findings with numerical experiments. ",
     "fotos/hector.jpeg"
 );
 createSpeakerCard(
@@ -388,6 +391,7 @@ createSpeakerCard(
     'Universidad Adolfo Ibañez',
     'Titulo',
     'Abstract',
+    "fotos/MAB1.png"
 );
 
 createSpeakerCard(
@@ -402,6 +406,7 @@ createSpeakerCard(
     'Universidad Adolfo Ibañez',
     'Titulo',
     'Abstract',
+    "fotos/diego_ramos.jpg"
 );
 
 </script>
