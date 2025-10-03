@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Jornada UAI en Estadística y Ciencia de Datos 2025</title>
 <style>
+     crossed {
+      text-decoration: line-through;
+    }
     /* ===== Base Styles ===== */
     body {
         margin: 0;
@@ -324,7 +327,7 @@ function openModal(titulo, abstract) {
 
     // Set the text
     
-    modalTitle.textContent = titulo;
+    modalTitle.innerHTML = titulo;
     modalText.textContent = abstract;
 
     modal.classList.add('show');
@@ -376,15 +379,15 @@ createSpeakerCard(
 createSpeakerCard(
     'Dr. John Barrera',
     'Universidad de Valparaíso',
-     'Titulo',
-    'Abstract',
+     'Indoor Microbiome in Asthma: A Differential Abundance Framework Accounting for Zero-Inflation, Compositionality, Spatial Clustering, and Covariate Adjustment',
+    'We studied the relationship between indoor microbiome composition and asthma using advanced statistical frameworks tailored to microbiome data. To account for sparsity and overdispersion, we employed zero-inflated beta regression for differential abundance analysis and Poisson-lognormal models. These methods were applied to household dust samples, adjusting for environmental and demographic covariates. Several asthma-associated bacterial and fungal taxa were identified, including both established and novel organisms. Our findings underscore the importance of zero-inflated modeling approaches in capturing microbial signatures and interactions relevant to respiratory health.',
     "fotos/john_barrera.jpeg"
 );
 
 createSpeakerCard(
     'Dr. Sebastián Moreno',
     'Universidad Adolfo Ibañez',
-    'Titulo',
+    'Aprendiendo sobre la <crossed>Inteligencia Artificial (IA)</crossed> los Large Language Models (LLMs) a través de los mitos',
     'Abstract',
     "fotos/sebastian_moreno.jpeg"
 );
