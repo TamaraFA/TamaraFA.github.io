@@ -1,0 +1,256 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  scrollbar-gutter: stable;
+}
+
+body {
+  margin: 0;
+  color: #222;
+  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+a {
+  color: #174f7a;
+}
+
+a:hover {
+  color: #111;
+}
+
+.site-header {
+  border-bottom: 1px solid #ddd;
+}
+
+.header-inner {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 18px 24px 0;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.site-name {
+  padding-bottom: 12px;
+  color: #222;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.tabs {
+  display: flex;
+  gap: 24px;
+}
+
+.tabs a {
+  padding-bottom: 12px;
+  border-bottom: 2px solid transparent;
+  color: #555;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.tabs a:hover,
+.tabs a[aria-current="page"] {
+  border-bottom-color: #222;
+  color: #222;
+}
+
+main,
+.site-footer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 17px;
+}
+
+.about {
+  display: grid;
+  max-width: 900px;
+  padding: 48px 0 60px;
+  grid-template-columns: minmax(0, 1fr) 400px;
+  gap: 50px;
+}
+
+.about h1 {
+  margin-bottom: 10px;
+}
+
+.about .position {
+  margin-bottom: 25px;
+  color: #555;
+}
+
+.about h2 {
+  margin: 28px 0 8px;
+}
+
+.about ul {
+  padding-left: 22px;
+}
+
+.about .contact {
+  margin-top: 28px;
+  color: #555;
+  font-size: 14px;
+}
+
+.portrait-wrap {
+  margin: 0;
+}
+
+.portrait {
+  display: block;
+  width: 400px;
+  height: 600px;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.simple-page {
+  max-width: 740px;
+  min-height: calc(100vh - 150px);
+  padding-top: 48px;
+  padding-bottom: 60px;
+}
+
+.simple-page > h1 {
+  margin-bottom: 10px;
+}
+
+.simple-page > section {
+  margin-top: 38px;
+}
+
+.simple-page section + section {
+  margin-top: 46px;
+}
+
+.simple-page ul,
+.simple-page ol {
+  padding-left: 24px;
+}
+
+.entries article {
+  margin-bottom: 24px;
+}
+
+.entries h3 {
+  margin-bottom: 3px;
+}
+
+.entries p {
+  margin-bottom: 3px;
+  color: #555;
+}
+
+.entries .placeholder {
+  font-style: italic;
+}
+
+.publications {
+  margin-top: 14px;
+}
+
+.publications li {
+  padding-left: 5px;
+  margin-bottom: 24px;
+}
+
+.site-footer {
+  padding-top: 22px;
+  padding-bottom: 28px;
+  color: #666;
+  font-size: 12px;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+@media (max-width: 850px) {
+  .about {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .about .portrait-wrap {
+    width: min(400px, 100%);
+    grid-row: 1;
+  }
+
+  .portrait {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 7;
+  }
+}
+
+@media (max-width: 680px) {
+  .header-inner {
+    display: block;
+    padding: 16px 18px 0;
+  }
+
+  .site-name {
+    display: inline-block;
+    padding-bottom: 8px;
+  }
+
+  .tabs {
+    overflow-x: auto;
+    gap: 18px;
+  }
+
+  .tabs a {
+    white-space: nowrap;
+  }
+
+  main,
+  .site-footer {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+
+  .about {
+    padding: 38px 0 48px;
+    gap: 25px;
+  }
+
+  .about .portrait-wrap {
+    width: min(400px, 100%);
+  }
+
+  .simple-page {
+    padding-top: 38px;
+    padding-bottom: 48px;
+  }
+}

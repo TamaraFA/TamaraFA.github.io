@@ -26,7 +26,7 @@ My research focuses on statistical methodology and machine learning, particularl
 ### Links
 
 * [Curriculum Vitae (PDF)](CV_Tamara_Fernandez.pdf)
-* Email: tamara.fernandez at uai dot cl
+* Email: tamara dot fernandez at uai dot cl
 
 ---
 
@@ -52,8 +52,7 @@ My recent research focuses on kernel-based statistical inference, including good
 ### Under review
 
 * **A Kernelized Approach to Multiple Contrast Testing in General Multivariate Factorial Designs**
-  with Nicolás Rivera.
-  Second-round revision at the *Journal of Multivariate Analysis*.
+  with Nicolás Rivera. Submitted to *Journal of Multivariate Analysis*.
 
 ---
 
