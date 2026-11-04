@@ -5,189 +5,263 @@
   <meta charset="utf-8">
   <meta name="viewport"
         content="width=device-width, initial-scale=1">
+
   <meta name="description"
-        content="Research in statistical methodology, kernel methods, survival analysis, biostatistics and epidemiology by Tamara Fernández.">
+        content="Research in statistical methodology,
+        kernel methods, survival analysis,
+        biostatistics and epidemiology.">
+
   <title>Tamara Fernández | Research</title>
+
   <link rel="stylesheet" href="styles.css">
+
+  <!-- Styles specific to Research -->
+  <style>
+    .research-page h1 {
+      font-size: 28px;
+    }
+
+    .research-page section h2 {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+
+    .research-page .research-items {
+      padding-left: 24px;
+      margin-top: 14px;
+    }
+
+    .research-page .research-items li {
+      font-size: 16px;
+      line-height: 1.55;
+      margin-bottom: 24px;
+    }
+
+    .research-page .project-title {
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .research-page .project-date {
+      display: block;
+      font-size: 14px;
+      color: #777;
+      margin-top: 2px;
+    }
+
+    .research-page .project-description {
+      font-size: 16px;
+      margin: 6px 0 0;
+    }
+
+    .research-page .project-collaboration {
+      font-size: 15px;
+      color: #555;
+      margin: 5px 0 0;
+    }
+
+    .research-page .project-note {
+      font-size: 15px;
+      margin: 5px 0 0;
+    }
+  </style>
 </head>
 
 <body>
+
   <header class="site-header">
     <div class="header-inner">
+
       <a class="site-name" href="index.html">
         Tamara Fernández
       </a>
+
       <nav class="tabs" aria-label="Main navigation">
         <a href="index.html">About</a>
-        <a href="research.html" aria-current="page">Research</a>
+        <a href="research.html" aria-current="page">
+          Research
+        </a>
         <a href="publications.html">Publications</a>
         <a href="grants.html">Grants</a>
         <a href="teaching.html">Teaching</a>
         <a href="service.html">Service &amp; Outreach</a>
       </nav>
+
     </div>
   </header>
 
-  <main class="simple-page">
+  <main class="simple-page research-page">
 
     <h1>Research</h1>
 
-    <p>
-      My research focuses on statistical methodology
-      and machine learning, particularly kernel-based
-      inference, survival analysis, and hypothesis testing.
-      I also work on interdisciplinary applications in
-      biostatistics and epidemiology.
-    </p>
-
-    <!-- STATISTICAL METHODOLOGY -->
+    <!-- METHODOLOGICAL RESEARCH -->
 
     <section>
       <h2>Statistical Methodology</h2>
 
-      <ul class="publications">
-
-        <li>
-          <strong>
-            Kernel Methods and Statistical Hypothesis Testing
-          </strong><br>
-          Development of kernel-based methods for
-          goodness-of-fit, independence, and composite
-          hypothesis testing, with a focus on statistical
-          power, asymptotic theory, and calibration.
-          Current research includes corrected wild bootstrap
-          procedures and adaptive kernel selection.
-        </li>
-
-        <li>
-          <strong>
-            Survival Analysis and Event-Time Data
-          </strong><br>
-          Development of nonparametric methods for censored
-          and time-to-event data, including kernel-based tests,
-          martingale methods, and inference under
-          non-proportional hazards.
-          Current work investigates tests of the proportional
-          hazards assumption and multiple testing procedures
-          in factorial designs.
-        </li>
-
-        <li>
-          <strong>
-            Statistical Learning for Complex Data
-          </strong><br>
-          Development of statistical learning methods
-          for structured observations, with particular
-          interest in point processes, distributional
-          representations, and kernel-based distances
-          for clustering and unsupervised learning.
-        </li>
-
-      </ul>
+      <p>
+        My research lies at the intersection of mathematical
+        statistics and statistical machine learning, with
+        a particular focus on nonparametric inference and
+        kernel-based hypothesis testing. I develop flexible
+        statistical methods for complex data, with an
+        emphasis on establishing rigorous theoretical
+        guarantees for their validity, power, and
+        asymptotic behavior. My current research interests
+        include composite hypothesis testing, adaptive
+        inference, survival analysis, and statistical
+        learning for structured data.
+      </p>
 
       <p>
         See <a href="publications.html">Publications</a>
         for published papers and ongoing manuscripts.
       </p>
+
     </section>
 
     <!-- APPLIED RESEARCH -->
 
     <section>
+
       <h2>Selected Applied Research Projects</h2>
 
-      <ul class="publications">
+      <p>
+        Alongside my methodological research, I collaborate
+        with interdisciplinary teams on statistical
+        problems in healthcare, epidemiology, and
+        biomedical sciences.
+      </p>
+
+      <ul class="publications research-items">
+
+        <!-- CLOZAPINE MORTALITY -->
 
         <li>
-          <strong>
+          <strong class="project-title">
             Population-Level Mortality among
-            Clozapine-Treated Patients in Chile (2003–2024)
-          </strong><br>
+            Clozapine-Treated Patients in Chile
+            (2003–2024)
+          </strong>
 
-          Statistical analysis of nationwide
-          pharmacovigilance data to investigate mortality
-          patterns associated with clozapine treatment.<br>
+          <span class="project-date">
+            2026–present
+          </span>
 
-          <em>
-            Statistical analysis conducted jointly with
-            Valeria Leiva in collaboration with
-            clinical researchers.
-          </em><br>
+          <p class="project-description">
+            Statistical analysis of nationwide
+            pharmacovigilance data to investigate
+            mortality patterns associated with
+            clozapine treatment.
+          </p>
 
-          <strong>First Place, SONEPSYN 2026</strong>,
-          Salón presentation category (PSS209).<br>
+          <p class="project-collaboration">
+            Statistical analysis conducted jointly
+            with Valeria Leiva in collaboration
+            with clinical researchers.
+          </p>
 
-          <em>2026–present</em>
+          <p class="project-note">
+            <strong>First Place, SONEPSYN 2026</strong>,
+            Salón presentation category (PSS209).
+          </p>
         </li>
 
+        <!-- HEMATOLOGICAL MONITORING -->
+
         <li>
-          <strong>
+          <strong class="project-title">
             Joint Modeling of Longitudinal Hematological
             Outcomes in Clozapine-Treated Patients
-          </strong><br>
+          </strong>
 
-          Development of joint longitudinal and time-to-event
-          models to characterize neutrophil count trajectories
-          and the risk of neutropenia, accounting for
-          different hematological monitoring intervals.<br>
+          <span class="project-date">
+            2026–present
+          </span>
 
-          <em>
-            Statistical modeling jointly developed with
-            Christian Araya in collaboration with
-            clinical researchers.
-          </em><br>
+          <p class="project-description">
+            Development of joint longitudinal and
+            time-to-event models to characterize
+            neutrophil count trajectories and the risk
+            of neutropenia under different
+            hematological monitoring intervals.
+          </p>
 
-          Abstract submitted to SONEPSYN 2026.<br>
+          <p class="project-collaboration">
+            Statistical modeling jointly developed
+            with Christian Araya in collaboration
+            with clinical researchers.
+          </p>
 
-          <em>2026–present</em>
+          <p class="project-note">
+            Abstract submitted to SONEPSYN 2026.
+          </p>
         </li>
 
+        <!-- HANTAVIRUS -->
+
         <li>
-          <strong>
-            Transcriptomic Analysis of Hantavirus Infection
-          </strong><br>
+          <strong class="project-title">
+            Transcriptomic Analysis of
+            Hantavirus Infection
+          </strong>
 
-          Statistical analysis of RNA-seq data to
-          characterize gene expression patterns associated
-          with disease progression and clinical severity.<br>
+          <span class="project-date">
+            2026–present
+          </span>
 
-          <em>
-            Statistical analysis conducted jointly with
-            Christian Araya, in collaboration with
-            virology researchers within SENTINET.
-          </em><br>
+          <p class="project-description">
+            Statistical analysis of RNA-seq data
+            to characterize gene expression patterns
+            associated with disease progression
+            and clinical severity.
+          </p>
 
-          <em>2026–present</em>
+          <p class="project-collaboration">
+            Statistical analysis conducted jointly
+            with Christian Araya, in collaboration
+            with virology researchers within SENTINET.
+          </p>
         </li>
 
+        <!-- EPIDEMIOLOGICAL PLATFORM -->
+
         <li>
-          <strong>
+          <strong class="project-title">
             Interactive Epidemiological Surveillance
             and Statistical Analytics Platform
-          </strong><br>
+          </strong>
 
-          Development of a pathogen-agnostic platform
-          integrating statistical modeling, spatial
-          epidemiological analysis, interactive visualization,
-          and AI-assisted data exploration.<br>
+          <span class="project-date">
+            2026–present
+          </span>
 
-          <em>
+          <p class="project-description">
+            Development of a pathogen-agnostic platform
+            integrating statistical modeling, spatial
+            epidemiological analysis, interactive
+            visualization, and AI-assisted
+            data exploration.
+          </p>
+
+          <p class="project-collaboration">
             Co-led with Nicolás Rivera
-            (Universidad de Valparaíso), involving
-            students from Universidad de Valparaíso
-            and Universidad Adolfo Ibáñez,
-            within SENTINET.
-          </em><br>
-
-          <em>2026–present</em>
+            (Universidad de Valparaíso),
+            involving students from Universidad
+            de Valparaíso and Universidad
+            Adolfo Ibáñez, within SENTINET.
+          </p>
         </li>
 
       </ul>
 
       <p>
-        Further information on funded research is
-        available under <a href="grants.html">Grants</a>.
+        Further information on funded research
+        is available under
+        <a href="grants.html">Grants</a>.
       </p>
+
     </section>
 
   </main>
